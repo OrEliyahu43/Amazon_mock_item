@@ -1,0 +1,113 @@
+.nav_flex_container{
+    height: 100%;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
+
+.main-nav{
+    color:var(--white);
+    background-color: var(--navbar_color);
+    height: 60px;
+}
+.deliver_to{
+    margin-right: 10px;
+   margin-left:20px;
+   
+}
+.deliver_to .deliver_to_1{
+    font-size: 12px;
+    color:var(--light_gray);
+
+}
+.deliver_to .deliver_to_2{
+    font-weight: 700;
+    color:var(--white);
+
+}
+
+.amazon_logo_svg{
+    
+    margin-left: 30px;
+    width: 100px;
+    height: 30px;
+   
+}
+
+form {
+    flex-grow: 1;
+    margin-left: 20px;
+    background-color: var(--white);
+    
+    height: 44px;
+    border-radius: 5px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+  }
+
+  input {
+    flex-flow: row wrap;
+    all: unset;
+    font: 16px system-ui;
+    color: black;
+    height: 10%;
+    width: 100%;
+    padding: 6px 10px;
+  }
+
+  ::placeholder {
+    color: black;
+    opacity: 0.7; 
+  }
+
+  svg {
+    color: rgb(243, 186, 53);
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+  }
+
+  button {
+    background-color: rgb(243, 186, 53);
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+
+  .input_search{
+    color: black;
+    
+  }
+  .usa_flag{
+      width: 20px;
+      margin-left: 20px;
+  }
+
+  .sub-nav{
+    display: flex;
+    height: 40px;
+    background-color: var(--sub_nav_color);
+    align-items: center;
+  }
+  .sub-nav a{
+      font-size: 14px;
+      margin-left: 10px;
+      padding: 7px 7px;
+      text-decoration: none;
+      color: white;
+  }
+   .sub-nav a:hover{
+      border: white solid 2px;
+  }
+  .border:hover{
+      border:white 2px solid;
+
+
+  }
+  .path{
+      font-size:12px ;
+      color: var(--light_gray);
+  }
